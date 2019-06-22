@@ -1,7 +1,7 @@
 # Hackintosh-EFI-Dell-Latitude_7280
 EFI files for Hackintosh on a Dell Latitude 7280 (2017 version)
 
-# Hardware information
+# Hardware
 
 - CPU: Core i7 7600U
 - GPU: Intel HD 630
