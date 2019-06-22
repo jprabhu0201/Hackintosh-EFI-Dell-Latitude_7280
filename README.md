@@ -1,5 +1,5 @@
 # Hackintosh-EFI-Dell-Latitude_7280
-EFI files for Hackintosh on a Dell Latitude 7280 (2017 version)
+EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on macOS Mojave 10.14.5
 
 # Hardware
 
