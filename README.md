@@ -28,3 +28,6 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on ma
 - SD card reader
 - Ethernet
 - Camera
+
+# Credit
+https://osxlatitude.com/forums/topic/11315-dell-lattitude-7480-mojave-install-need-help/?tab=comments#comment-88501
