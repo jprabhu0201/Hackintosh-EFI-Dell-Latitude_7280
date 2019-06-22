@@ -4,7 +4,7 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on ma
 # Hardware
 
 - CPU: Core i7 7600U
-- GPU: Intel HD 630
+- GPU: Intel HD 620
 - WiFi: DW1560/BCM94352Z (separately purchased to replace the original Intel hardware)
 - Screen resolution: 1920X1080
 - RAM: 8G
