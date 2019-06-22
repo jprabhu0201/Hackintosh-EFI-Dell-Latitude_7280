@@ -15,7 +15,7 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on ma
 - Sleep (wake by power button)
 - Sound/Mic (speaker, earphone)
 - Network (only wireless tested)
-- Bluetooth (loses connection with Microsoft Modern Mouse, other devices work well)
+- Bluetooth (loses connection with Microsoft Modern Mouse after sleep, other devices work well)
 - Keyboard (supports shortcut for volume adjustment (fn+f1/f2/f3), and brightness adjustment (f2/f3) configured in settings)
 - Touchpad (one finger and two finger gestures)
 - Battery
