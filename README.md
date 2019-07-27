@@ -20,7 +20,7 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on ma
 - Touchpad (one finger and two finger gestures)
 - Battery
 - USB
-- Thunderbolt (USB-C supported when plugged-in before boot, charging not tested)
+- Thunderbolt (USB-C supported when plugged-in before boot, charging works)
 
 # Not tested
 
