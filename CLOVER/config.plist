@@ -288,28 +288,13 @@
 			<key>NoOemTableId</key>
 			<false/>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-ALC256.aml</string>
-			<string>SSDT-BRT6.aml</string>
-			<string>SSDT-GPRW.aml</string>
-			<string>SSDT-HPET.aml</string>
-			<string>SSDT-I2C.aml</string>
-			<string>SSDT-LPC.aml</string>
-			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-UIAC-ALL-a2af-fix.aml</string>
-			<string>SSDT-USBX.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-XHC.aml</string>
-			<string>SSDT-XOSI.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 -cdfon -igfxnohdmi debug=0x100</string>
+		<string>kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>Mojave</string>
 		<key>NeverHibernate</key>
@@ -585,7 +570,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>El Capitan</string>
+		<string>OSS</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -919,17 +904,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>05/28/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP142.88Z.F000.B00.1809171524</string>
+		<string>MBP142.88Z.F000.B00.1905281615</string>
 		<key>Board-ID</key>
 		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027382704NHRPCUE</string>
+		<string>C02725310QXHRPCFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -941,7 +926,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>184.0.0.0.0</string>
+		<string>196.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -959,11 +944,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,2</string>
 		<key>SerialNumber</key>
-		<string>C02VFLZQHV2N</string>
+		<string>C02TWCYSHV2N</string>
 		<key>SmUUID</key>
-		<string>A2789FC5-0BC5-4E5F-A23F-6E6394DF95CF</string>
-		<key>Trust</key>
-		<true/>
+		<string>C2C5BD7E-8ABA-4576-BC15-187CE65BE165</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
