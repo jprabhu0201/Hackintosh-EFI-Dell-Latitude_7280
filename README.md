@@ -1,5 +1,7 @@
-# Hackintosh-EFI-Dell-Latitude_7280
-EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on macOS Mojave 10.14.5
+# Hackintosh-EFI-Dell-Latitude_7280 (on macOS Catalina 10.15.1)
+EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), updated to macOS Catalina 10.15.1
+
+# Clover version: r5096
 
 # Hardware
 
@@ -12,12 +14,13 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on ma
 
 # Working:
 
+- Sidecar（yeah baby! This is the main goal for updating to Catalina）
 - Sleep (wake by power button)
 - Sound/Mic (speaker, earphone)
 - Network (only wireless tested)
-- Bluetooth (loses connection with Microsoft Modern Mouse after sleep, other devices work well)
+- Bluetooth (with BrcmBluetoothInjector.kext)
 - Keyboard (supports shortcut for volume adjustment (fn+f1/f2/f3), and brightness adjustment (f2/f3) configured in settings)
-- Touchpad (one finger and two finger gestures)
+- Touchpad (one finger and two finger gestures, ensure to copy the "CopyToLE" files into Library/Extensions and rebuild cache)
 - Battery
 - USB
 - Thunderbolt (USB-C supported when plugged-in before boot, charging works)
@@ -30,4 +33,4 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version), currently on ma
 - Camera
 
 # Credit
-https://osxlatitude.com/forums/topic/11315-dell-lattitude-7480-mojave-install-need-help/?tab=comments#comment-88501
+https://osxlatitude.com/forums/topic/12379-dell-lattitude-7480-catalina/
