@@ -1,8 +1,7 @@
-# Hackintosh-EFI-Dell-Latitude_7280 (on macOS Catalina 10.15.3)
+# Hackintosh-EFI-Dell-Latitude_7280
 EFI files for Hackintosh on a Dell Latitude 7280 (2017 version)
-
-# macOS Catalina 10.15.3
-# Clover version: r5104
+- macOS Catalina 10.15.3
+- Clover version: r5104
 
 # Updates on 24 February 2020
 
