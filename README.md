@@ -11,15 +11,20 @@ EFI files for Hackintosh on a Dell Latitude 7280 (2017 version)
 - Updated various kexts
 - HDMI output fixed in config.plist, and it is now working well (audio not tested)
  
-  First issue: reboots when HDMI cable is plugged in;
+  First issue: reboots when HDMI cable is plugged in.
+  
   Fix: 
+  
   1) Insert fake id in Devices>Fake ID>IntelGFX: 0x591B0000
   2) Tick Graphics>Inject Intel;
   3) Select from dropdown menu: Graphics>ig-platform-id>Kabby Lake 620 0x59160000
   
-  Second issue: reboot stops from above fix, but screen is all purple
-  Fix:  
+  Second issue: reboot stops from above fix, but external screen is all purple.
+  
+  Fix:
+  
   follow this: https://www.mathewinkson.com/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor
+  
   (Note: the reboot-into-recovery-then-disable-SIP method did not work for me, the directory S/L/D/C/R/O still not accessible even SIP is disabled. I use the reboot-into-recovery-then-copy-and-replace-via-terminal method mentioned in the first update in the post (https://www.mathewinkson.com/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor/comment-page-13#comment-15886).)
   
 - Camera tested working well
